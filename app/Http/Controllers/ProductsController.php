@@ -34,12 +34,13 @@ class ProductsController extends Controller
     }
     
     public function allCategory(){
-        $products = Product::select('category')->get();
-        $categories = array();
-        foreach($products as $product){
-            array_push($categories, $product['category']);
-        }
-        return response()->json(['categories'=>$categories], 200);
+        $categories = Product::distinct('category')
+        ->select('category')
+        ->get();
+    
+    return response()->json([
+        'data' => $categories
+    ]);
     }
 
 
