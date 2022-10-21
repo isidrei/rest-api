@@ -1,0 +1,489 @@
+name: Endpoints
+description: ''
+endpoints:
+  -
+    httpMethods:
+      - GET
+    uri: api/user
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 401
+        content: '{"message":"Unauthenticated."}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/products
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"products":[{"id":1,"title":"Blonde Album","description":"Made by Frank Ocean","currency":"PHP","price":800,"brand":"Blonde","category":"Album","image":"https:\/\/preview.redd.it\/sbbgz064d5kz.jpg?auto=webp&s=1a10658235fc5dc98799680931fdb6d32ea4c416","created_at":null,"updated_at":null},{"id":2,"title":"Travis Scott Jordan 1","description":"Made by Travis Scott","currency":"PHP","price":9000,"brand":"Jordan","category":"shoes","image":"https:\/\/encrypted-tbn0.gstatic.com\/images?q=tbn:ANd9GcSmJoqbdZEqcCOELJ7JEImSqQzgSFF_IbF7DQ&usqp=CAU","created_at":null,"updated_at":null},{"id":3,"title":"Santa Cruz Skateboard","description":"Made by Santa Cruz","currency":"PHP","price":9000,"brand":"Santa Cruz","category":"skateboard","image":"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/4257\/products\/SC_ScreamingHand_Bottom_SC362_FullComp.jpg?v=1612291408","created_at":null,"updated_at":"2022-10-07T16:49:53.000000Z"},{"id":5,"title":"minima","description":"consectetur","currency":"PHP","price":219.6,"brand":"veritatis","category":"book","image":"https:\/\/via.placeholder.com\/640x480.png\/00aa00?text=product+ut","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":6,"title":"et","description":"omnis","currency":"PHP","price":442.7,"brand":"amet","category":"book","image":"https:\/\/via.placeholder.com\/640x480.png\/00ffff?text=product+ab","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":7,"title":"sit","description":"sint","currency":"PHP","price":236.7,"brand":"porro","category":"apparel","image":"https:\/\/via.placeholder.com\/640x480.png\/00eedd?text=product+in","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":8,"title":"quisquam","description":"pariatur","currency":"PHP","price":278.9,"brand":"omnis","category":"book","image":"https:\/\/via.placeholder.com\/640x480.png\/008833?text=product+aliquid","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":9,"title":"aut","description":"dolores","currency":"PHP","price":371.6,"brand":"sapiente","category":"apparel","image":"https:\/\/via.placeholder.com\/640x480.png\/00bb22?text=product+cum","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":10,"title":"eum","description":"et","currency":"PHP","price":493.8,"brand":"dolore","category":"electronic device","image":"https:\/\/via.placeholder.com\/640x480.png\/0022ee?text=product+dolor","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":11,"title":"exercitationem","description":"et","currency":"PHP","price":219.4,"brand":"perspiciatis","category":"apparel","image":"https:\/\/via.placeholder.com\/640x480.png\/00aaff?text=product+fugiat","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":12,"title":"officiis","description":"ea","currency":"PHP","price":288.7,"brand":"voluptatem","category":"book","image":"https:\/\/via.placeholder.com\/640x480.png\/000077?text=product+quasi","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":13,"title":"eaque","description":"nostrum","currency":"PHP","price":483.3,"brand":"possimus","category":"apparel","image":"https:\/\/via.placeholder.com\/640x480.png\/0088ee?text=product+minus","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":14,"title":"natus","description":"est","currency":"PHP","price":346.2,"brand":"maxime","category":"apparel","image":"https:\/\/via.placeholder.com\/640x480.png\/00bb77?text=product+non","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":15,"title":"rerum","description":"reiciendis","currency":"PHP","price":284.8,"brand":"consequuntur","category":"book","image":"https:\/\/via.placeholder.com\/640x480.png\/00cc66?text=product+maxime","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":16,"title":"est","description":"vel","currency":"PHP","price":352.6,"brand":"molestiae","category":"book","image":"https:\/\/via.placeholder.com\/640x480.png\/0077bb?text=product+molestias","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":17,"title":"sit","description":"illo","currency":"PHP","price":259.5,"brand":"maiores","category":"electronic device","image":"https:\/\/via.placeholder.com\/640x480.png\/00ffaa?text=product+consectetur","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":18,"title":"et","description":"vel","currency":"PHP","price":479,"brand":"nihil","category":"electronic device","image":"https:\/\/via.placeholder.com\/640x480.png\/00ff44?text=product+ratione","created_at":"2022-10-08T14:52:36.000000Z","updated_at":"2022-10-08T14:52:36.000000Z"},{"id":19,"title":"quos","description":"voluptatum","currency":"PHP","price":350.2,"brand":"deserunt","category":"apparel","image":"https:\/\/via.placeholder.com\/640x480.png\/00ff22?text=product+ex","created_at":"2022-10-08T14:52:36.000000Z","updated_at":"2022-10-08T14:52:36.000000Z"},{"id":20,"title":"corrupti","description":"dolor","currency":"PHP","price":373.5,"brand":"quas","category":"apparel","image":"https:\/\/via.placeholder.com\/640x480.png\/0099cc?text=product+sint","created_at":"2022-10-08T14:52:36.000000Z","updated_at":"2022-10-08T14:52:36.000000Z"},{"id":21,"title":"suscipit","description":"facere","currency":"PHP","price":499.9,"brand":"aut","category":"book","image":"https:\/\/via.placeholder.com\/640x480.png\/007777?text=product+sed","created_at":"2022-10-08T14:52:36.000000Z","updated_at":"2022-10-08T14:52:36.000000Z"},{"id":22,"title":"velit","description":"itaque","currency":"PHP","price":219.1,"brand":"et","category":"apparel","image":"https:\/\/via.placeholder.com\/640x480.png\/0088dd?text=product+doloribus","created_at":"2022-10-08T14:52:36.000000Z","updated_at":"2022-10-08T14:52:36.000000Z"},{"id":23,"title":"aut","description":"molestiae","currency":"PHP","price":215.9,"brand":"necessitatibus","category":"apparel","image":"https:\/\/via.placeholder.com\/640x480.png\/000099?text=product+itaque","created_at":"2022-10-08T14:52:36.000000Z","updated_at":"2022-10-08T14:52:36.000000Z"},{"id":24,"title":"omnis","description":"a","currency":"PHP","price":455.8,"brand":"labore","category":"electronic device","image":"https:\/\/via.placeholder.com\/640x480.png\/005599?text=product+aperiam","created_at":"2022-10-08T14:52:36.000000Z","updated_at":"2022-10-08T14:52:36.000000Z"}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '59'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/products/{product_id}'
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      product_id:
+        name: product_id
+        description: 'The ID of the product.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+    cleanUrlParameters:
+      product_id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"products":{"id":1,"title":"Blonde Album","description":"Made by Frank Ocean","currency":"PHP","price":800,"brand":"Blonde","category":"Album","image":"https:\/\/preview.redd.it\/sbbgz064d5kz.jpg?auto=webp&s=1a10658235fc5dc98799680931fdb6d32ea4c416","created_at":null,"updated_at":null}}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '58'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/products/search/{keywords}'
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      keywords:
+        name: keywords
+        description: ''
+        required: true
+        example: et
+        type: string
+        custom: []
+    cleanUrlParameters:
+      keywords: et
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"products":[{"id":6,"title":"et","description":"omnis","currency":"PHP","price":442.7,"brand":"amet","category":"book","image":"https:\/\/via.placeholder.com\/640x480.png\/00ffff?text=product+ab","created_at":"2022-10-08T14:52:35.000000Z","updated_at":"2022-10-08T14:52:35.000000Z"},{"id":18,"title":"et","description":"vel","currency":"PHP","price":479,"brand":"nihil","category":"electronic device","image":"https:\/\/via.placeholder.com\/640x480.png\/00ff44?text=product+ratione","created_at":"2022-10-08T14:52:36.000000Z","updated_at":"2022-10-08T14:52:36.000000Z"}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '57'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: api/products/category/categories
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"data":[{"category":"Album"},{"category":"shoes"},{"category":"skateboard"},{"category":"book"},{"category":"apparel"},{"category":"electronic device"}]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '56'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - GET
+    uri: 'api/products/category/{category_name}'
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      category_name:
+        name: category_name
+        description: ''
+        required: true
+        example: labore
+        type: string
+        custom: []
+    cleanUrlParameters:
+      category_name: labore
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses:
+      -
+        status: 200
+        content: '{"products":[]}'
+        headers:
+          cache-control: 'no-cache, private'
+          content-type: application/json
+          x-ratelimit-limit: '60'
+          x-ratelimit-remaining: '55'
+          access-control-allow-origin: '*'
+        description: null
+        custom: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - POST
+    uri: api/products/add
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters: []
+    cleanUrlParameters: []
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      title:
+        name: title
+        description: ''
+        required: true
+        example: dolorem
+        type: string
+        custom: []
+      description:
+        name: description
+        description: ''
+        required: true
+        example: unde
+        type: string
+        custom: []
+      currency:
+        name: currency
+        description: ''
+        required: true
+        example: inventore
+        type: string
+        custom: []
+      price:
+        name: price
+        description: ''
+        required: true
+        example: eaque
+        type: string
+        custom: []
+      brand:
+        name: brand
+        description: ''
+        required: true
+        example: eius
+        type: string
+        custom: []
+      category:
+        name: category
+        description: ''
+        required: true
+        example: amet
+        type: string
+        custom: []
+      image:
+        name: image
+        description: ''
+        required: true
+        example: qui
+        type: string
+        custom: []
+    cleanBodyParameters:
+      title: dolorem
+      description: unde
+      currency: inventore
+      price: eaque
+      brand: eius
+      category: amet
+      image: qui
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - PUT
+    uri: 'api/products/{product_id}'
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      product_id:
+        name: product_id
+        description: 'The ID of the product.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+    cleanUrlParameters:
+      product_id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters:
+      title:
+        name: title
+        description: ''
+        required: true
+        example: beatae
+        type: string
+        custom: []
+      description:
+        name: description
+        description: ''
+        required: true
+        example: quia
+        type: string
+        custom: []
+      currency:
+        name: currency
+        description: ''
+        required: true
+        example: molestiae
+        type: string
+        custom: []
+      price:
+        name: price
+        description: ''
+        required: true
+        example: quibusdam
+        type: string
+        custom: []
+      brand:
+        name: brand
+        description: ''
+        required: true
+        example: veniam
+        type: string
+        custom: []
+      category:
+        name: category
+        description: ''
+        required: true
+        example: et
+        type: string
+        custom: []
+      image:
+        name: image
+        description: ''
+        required: true
+        example: autem
+        type: string
+        custom: []
+    cleanBodyParameters:
+      title: beatae
+      description: quia
+      currency: molestiae
+      price: quibusdam
+      brand: veniam
+      category: et
+      image: autem
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
+  -
+    httpMethods:
+      - DELETE
+    uri: 'api/products/{product_id}'
+    metadata:
+      groupName: Endpoints
+      groupDescription: ''
+      subgroup: ''
+      subgroupDescription: ''
+      title: ''
+      description: ''
+      authenticated: false
+      custom: []
+    headers:
+      Content-Type: application/json
+      Accept: application/json
+    urlParameters:
+      product_id:
+        name: product_id
+        description: 'The ID of the product.'
+        required: true
+        example: 1
+        type: integer
+        custom: []
+    cleanUrlParameters:
+      product_id: 1
+    queryParameters: []
+    cleanQueryParameters: []
+    bodyParameters: []
+    cleanBodyParameters: []
+    fileParameters: []
+    responses: []
+    responseFields: []
+    auth: []
+    controller: null
+    method: null
+    route: null
+    custom: []
